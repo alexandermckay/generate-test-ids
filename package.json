@@ -9,6 +9,7 @@
   "scripts": {
     "prebuild": "npm run validate",
     "build": "tsc",
+    "release": "npm run build && np",
     "size": "size-limit",
     "test": "jest",
     "lint": "eslint src --ext .ts,.tsx",
