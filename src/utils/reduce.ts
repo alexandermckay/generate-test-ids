@@ -1,4 +1,3 @@
-import {Reduce} from '../types'
+import { Reduce } from '../types'
 
-export const reduce: Reduce = (reducer, initalValue) => (list) =>
-  list.reduce(reducer, initalValue)
+export const reduce: Reduce = (reducer, initalValue) => (list) => list.reduce(reducer, initalValue)
