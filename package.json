@@ -2,7 +2,7 @@
   "name": "generate-test-ids",
   "version": "1.1.0",
   "description": "Generate an object of unique test ids",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
     "lib/**/*"
   ],
