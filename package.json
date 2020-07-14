@@ -1,0 +1,41 @@
+{
+  "name": "generate-test-ids",
+  "version": "0.0.1",
+  "description": "Generate an object of unique test ids",
+  "main": "index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandermckay/generate-test-ids.git"
+  },
+  "keywords": [
+    "@testing/library",
+    "test-ids"
+  ],
+  "author": "Alex McKay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexandermckay/generate-test-ids/issues"
+  },
+  "homepage": "https://github.com/alexandermckay/generate-test-ids#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint-plugin-jest": "^23.18.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.2",
+    "typescript": "^3.9.6"
+  }
+}
