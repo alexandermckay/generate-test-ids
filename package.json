@@ -1,6 +1,6 @@
 {
   "name": "generate-test-ids",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Generate an object of unique test ids",
   "main": "index.js",
   "files": [
