@@ -44,6 +44,7 @@ This deals with the sync risk outlined above, but there is no guarantee that the
 
 ## Use
 
+- [Working example](https://codesandbox.io/s/generate-test-ids-example-t4ise)
 - Create a file in your project to hold the testids object
 
 ```javascript

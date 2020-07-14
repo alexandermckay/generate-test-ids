@@ -7,13 +7,13 @@
     "lib/**/*"
   ],
   "scripts": {
+    "prebuild": "npm run validate",
     "build": "tsc",
     "size": "size-limit",
     "test": "jest",
     "lint": "eslint src --ext .ts,.tsx",
     "format": "prettier --write \"src/**/*.ts\"",
-    "validate": "npm run size && npm run format && npm run lint && npm run test",
-    "publish": "npm run validate && npm run build && np"
+    "validate": "npm run size && npm run format && npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
