@@ -6,10 +6,10 @@
 
 ## Why
 
-When using the fantastic `@testing-library` libraries I found myself becoming concerned that as a project grew so did two risks:
+When using the fantastic `@testing-library` libraries I found myself becoming concerned that as a project grew so did two connected risks:
 
 - Duplication risk: the same test id was used for multiple elements. This could result in false positives or the wrong element being selected
-- Sync risk: a test id string could be different to the string on the element without any warning
+- Sync risk: an id string defined in a test file could be different to the test id defined in a component file
 
 To remove these unnecessary risks I started creating test id objects like this:
 
